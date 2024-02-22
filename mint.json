@@ -17,13 +17,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
+      "name": "联系",
       "url": "mailto:naxiaoduo001@gmail.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "GitHub stars",
+    "url": "https://github.com/naxiaoduo/docs"
   },
   "tabs": [
     {
