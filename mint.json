@@ -33,14 +33,14 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "赞助商",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://ababtools.com"
     },
     {
-      "name": "Community",
+      "name": "赞助商",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://ababtools.com"
     },
     {
       "name": "赞助商",
