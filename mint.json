@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:naxiaoduo001@gmail.com"
     }
   ],
   "topbarCtaButton": {
@@ -33,19 +33,19 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "赞助商",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://ababtools.com"
     },
     {
-      "name": "Community",
+      "name": "赞助商",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://ababtools.com"
     },
     {
-      "name": "Blog",
+      "name": "赞助商",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://ababtools.com"
     }
   ],
   "navigation": [
