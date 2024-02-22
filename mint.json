@@ -33,14 +33,14 @@
   ],
   "anchors": [
     {
-      "name": "赞助商",
+      "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://ababtools.com"
+      "url": "https://mintlify.com/docs"
     },
     {
-      "name": "赞助商",
+      "name": "Community",
       "icon": "slack",
-      "url": "https://ababtools.com"
+      "url": "https://mintlify.com/community"
     },
     {
       "name": "赞助商",
@@ -84,8 +84,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
+    "twitter": "https://twitter.com/ababtoolscom",
+    "即刻": "https://web.okjike.com/u/04F697F2-23F8-441E-A39E-BCB460F90D50",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
 }
