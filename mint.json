@@ -33,17 +33,17 @@
   ],
   "anchors": [
     {
-      "name": "赞助商",
+      "name": "赞助商1",
       "icon": "book-open-cover",
       "url": "https://ababtools.com"
     },
     {
-      "name": "赞助商",
+      "name": "赞助商2",
       "icon": "slack",
       "url": "https://ababtools.com"
     },
     {
-      "name": "赞助商",
+      "name": "赞助商3",
       "icon": "newspaper",
       "url": "https://ababtools.com"
     }
@@ -69,23 +69,32 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Markdown 入门指南",
       "pages": [
         "api-reference/introduction"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "引言",
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
       ]
     }
+    },
+    {
+      "group": "第一部分：Markdown基础",
+      "pages": [
+        "api-reference/part1/get",
+        "api-reference/part1/create",
+        "api-reference/part1/delete"
+      ]
+    }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/ababtoolscom",
-    "即刻": "https://web.okjike.com/u/04F697F2-23F8-441E-A39E-BCB460F90D50",
+    "Github": "https://github.com/naxiaoduo/docs",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
 }
