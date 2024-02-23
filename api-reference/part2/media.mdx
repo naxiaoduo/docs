@@ -1,27 +1,101 @@
 ---
-title: '1.1 Markdown简介'
-description: '《Markdown写作教程：从零起步掌握Markdown语法》'
+title: '2.3 媒体嵌入'
+description: ''
 ---
-第一部分将从Markdown的基础知识入手，帮助读者了解Markdown的起源、发展以及其核心设计原则和哲学。这将为读者打下坚实的基础，使其能够更好地理解和掌握Markdown语法的各个方面。
+在Markdown中，您可以轻松地插入音频、视频和其他在线内容，以增强您的文档的可视性和吸引力。
 
-**1.1.1 Markdown的历史和发展**
+### 2.3.1 插入音频和视频
 
-Markdown是一种轻量级的标记语言，由约翰·格鲁伯（John Gruber）于2004年创建。Markdown的灵感来自于电子邮件和论坛上的纯文本格式，它旨在提供一种简单易用的方式来格式化文本，同时又保持文本的可读性和可移植性。
+要插入音频和视频文件，您可以使用 HTML 的  ` <audio> `  和  ` <video> `  标签，并使用 Markdown 的 HTML 语法将其嵌入到文档中。
 
-Markdown最初只支持一些基本的格式化元素，如标题、列表和链接。随着时间的推移，Markdown逐渐发展壮大，增加了许多新的特性和功能，包括代码块、表格、脚注、数学公式等。
+例如，如果您在电脑中使用 Obsidian 本地软件写作文档，需要插入一首存在电脑中的歌曲，您可以使用以下语法：
 
-如今，Markdown已经成为一种非常流行的标记语言，被广泛用于撰写技术文档、博客文章、电子邮件、社交媒体帖子等。许多国内外网站和平台也支持Markdown，包括GitHub、WordPress、Medium、Notion、知乎、简书、FlowUs等。
+```html
+<audio src="音频文件路径" controls></audio>
 
-**1.1.2 Markdown的设计原则和哲学**
+```
 
-Markdown的设计原则和哲学如下：
+```html
+<audio src="/Users/username/Music/my_music.mp3" controls></audio>
 
- - 易读性。Markdown的语法非常简单，很容易阅读和理解。
+```
 
- - 可写性。Markdown的语法也非常容易编写，不需要花费时间在复杂的排版上。
+在上述示例中，使用  ` <audio> `  标签可以将音频嵌入到文档中，并添加  ` controls `  属性以显示音频控件，例如播放按钮和音量控制。这将在文档中嵌入一个音频播放器，允许您播放歌曲。
 
- - 可移植性。Markdown是一种纯文本格式，可以被任何文本编辑器或Markdown编辑器打开和编辑，不受平台的限制。
+同样的方式，您可以使用  ` <video> `  标签来插入视频文件：
 
- - 扩展性。Markdown允许用户根据自己的需求扩展Markdown语法，以支持新的特性和功能。
+```html
+<video src="视频文件路径" width="800px" height="600px" controls="controls"></video>
 
-Markdown的这些设计原则和哲学使其成为一种非常受欢迎的标记语言，深受广大用户的喜爱。
+```
+
+```html
+<video src="/Users/username/Videos/my_video.mp4" width="800px" height="600px" controls="controls"></video>
+
+```
+
+使用  ` <video> `  标签可以将视频嵌入到文档中，并添加  ` controls `  属性以显示视频控件，例如播放按钮和进度条。
+
+您可以使用以下属性来控制音视频的显示和播放：
+
+ -  ` src ` ：要嵌入页面的视频的 URL。
+
+ -  ` controls ` ：允许用户控制音视频的播放，包括音量、跨帧、暂停/恢复播放。
+
+ -  ` width ` ：视频显示区域的宽度，单位是 CSS 像素。
+
+ -  ` height ` ：视频显示区域的高度，单位是 CSS 像素。
+
+### 2.3.2 嵌入在线内容，如网易云音乐和哔哩哔哩视频
+
+除了插入本地媒体文件之外，Markdown 还支持嵌入在线内容，如网易云音乐和哔哩哔哩视频。这可以通过使用 HTML 的  ` <iframe> `  标签来实现，该标签可以将另一个 HTML 页面嵌入到当前页面中。
+
+#### 嵌入网易云音乐
+
+要嵌入网易云音乐，可以使用以下 HTML 代码：
+
+```html
+<iframe src="https://music.163.com/outchain/player?type=2&amp;id=网易云音乐歌曲ID&amp;auto=1&amp;height=66" width="330" height="86" frameborder="no"></iframe>
+
+```
+
+其中，网易云音乐歌曲 ID 是你要嵌入的歌曲的 ID。将宽度和高度替换为所需的显示尺寸，通过使用  ` <iframe> `  标签并设置相应的属性，您可以在 Markdown 文档中嵌入网易云音乐。
+
+示例：
+
+以下是一个嵌入网易云音乐歌曲的 Markdown 示例：
+
+```html
+<iframe src="https://music.163.com/outchain/player?type=2&amp;id=2092573643&amp;auto=1&amp;height=66" width="330" height="86" frameborder="no"></iframe>
+
+```
+
+#### 嵌入哔哩哔哩视频
+
+要嵌入哔哩哔哩视频，可以使用以下 HTML 代码：
+
+```html
+<iframe src="//player.bilibili.com/player.html?aid=视频ID" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="宽度" height="高度"></iframe>
+
+```
+
+其中，哔哩哔哩视频 ID 是你要嵌入的视频的 ID。
+
+示例：
+
+以下是一个嵌入哔哩哔哩视频的 Markdown 示例：
+
+Copy
+
+```html
+<iframe src="//player.bilibili.com/player.html?aid=537416597" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="宽度" height="高度"></iframe>
+
+```
+
+**注意：**
+
+ - 在 Markdown 中嵌入在线内容时，需要确保所嵌入的内容是公开可访问的，否则可能会导致嵌入失败。
+
+ - 具体的嵌入语法可能因为不同的嵌入内容而有所不同。在使用特定的嵌入内容（如网易云音乐或哔哩哔哩视频）时，请根据它们的嵌入指南或文档提供的具体语法进行操作。
+
+ - 嵌入的在线内容也可能会因为版权或其他原因而被移除，因此在嵌入时需要注意风险。
