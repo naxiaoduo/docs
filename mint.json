@@ -89,8 +89,7 @@
         "api-reference/part1/create",
         "api-reference/part1/delete"
       ]
-    }
-  ],
+    },
     {
       "group": "第二部分：Markdown进阶技巧",
       "pages": [
@@ -99,8 +98,7 @@
         "api-reference/part2/media",
         "api-reference/part2/delete"
       ]
-    }
-  ],
+    },
     {
       "group": "第三部分：Markdown实践",
       "pages": [
@@ -108,8 +106,7 @@
         "api-reference/part3/create",
         "api-reference/part3/delete"
       ]
-    }
-  ],
+    },
     {
       "group": "第四部分：Markdown工具与生态系统",
       "pages": [
@@ -117,8 +114,7 @@
         "api-reference/part4/create",
         "api-reference/part4/delete"
       ]
-    }
-  ],
+    },
     {
       "group": "结束语",
       "pages": [
@@ -126,8 +122,7 @@
         "api-reference/part5/create",
         "api-reference/part5/delete"
       ]
-    }
-  ],
+    },
     {
       "group": "Markdown+",
       "pages": [
